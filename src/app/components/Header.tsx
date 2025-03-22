@@ -1,15 +1,15 @@
-import type { Metadata } from "next";
-import "../globals.css";
 import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="bg-gray-900 text-white p-4 flex justify-between items-center">
+    <header className="navbar">
       <div className="nav-left">
-        <Link href="/">Home</Link>
+        <Link href="/" className="active">
+          Home
+        </Link>
       </div>
-      <div className="nav-right flex items-center space-x-6">
-        <div className="flex items-center space-x-2">
+      <div className="nav-right">
+        <div className="toggle-container">
           <i className="fas fa-sun"></i>
           <label className="switch">
             <input type="checkbox" id="theme-toggle" />
@@ -17,13 +17,18 @@ export default function Header() {
           </label>
           <i className="fas fa-moon"></i>
         </div>
-
-        <nav className="hidden md:flex space-x-4">
-            <Link href="/about" className="hover:underline">
-            About Me</Link>
-            <Link href="/projects" className="hover:underline">
-            Projects</Link>
-        </nav>
+        <button className="hamburger" aria-label="Menu">
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </button>
+        <div className="nav-links">
+          <Link href="/about" className="about-me">
+            About Me
+          </Link>
+          <Link href="/projects">Projects</Link>
+          <a href="/files/SWE_Resume_Goshanraj_Govindaraj.pdf">Resume</a>
+        </div>
       </div>
     </header>
   );

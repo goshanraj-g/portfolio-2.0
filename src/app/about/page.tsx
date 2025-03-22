@@ -37,7 +37,7 @@ export default function About() {
                   "SQL",
                   "Python",
                   "C",
-                  "Linux/UNIX",
+                  "Linux",
                   "C++",
                   "Git",
                 ].map((tech) => (
