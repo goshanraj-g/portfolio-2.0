@@ -16,7 +16,7 @@ export default function Projects() {
           </h1>
 
           <div className="projects-grid grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Project Card 1: Portfolio Website */}
+            {/* Project Card 1*/}
             <div className="project-card bg-gray-800 border border-gray-700 p-6 rounded-lg transition hover:-translate-y-1">
               <div className="project-content flex flex-col">
                 <h3 className="project-title text-xl font-bold mb-2">
@@ -49,7 +49,7 @@ export default function Projects() {
               </div>
             </div>
 
-            {/* Project Card 2: GitHub Profile and Stats Viewer */}
+            {/* Project Card 2*/}
             <div className="project-card bg-gray-800 border border-gray-700 p-6 rounded-lg transition hover:-translate-y-1">
               <div className="project-content flex flex-col">
                 <h3 className="project-title text-xl font-bold mb-2">
@@ -82,7 +82,7 @@ export default function Projects() {
               </div>
             </div>
 
-            {/* Project Card 3: Voyager */}
+            {/* Project Card 3*/}
             <div className="project-card bg-gray-800 border border-gray-700 p-6 rounded-lg transition hover:-translate-y-1">
               <div className="project-content flex flex-col">
                 <h3 className="project-title text-xl font-bold mb-2">
@@ -123,7 +123,7 @@ export default function Projects() {
               </div>
             </div>
 
-            {/* Project Card 4: Toronto House Price Predictor */}
+            {/* Project Card 4*/}
             <div className="project-card bg-gray-800 border border-gray-700 p-6 rounded-lg transition hover:-translate-y-1">
               <div className="project-content flex flex-col">
                 <h3 className="project-title text-xl font-bold mb-2">
@@ -156,7 +156,7 @@ export default function Projects() {
               </div>
             </div>
 
-            {/* Project Card 5: Call-ASSIST */}
+            {/* Project Card 5*/}
             <div className="project-card bg-gray-800 border border-gray-700 p-6 rounded-lg transition hover:-translate-y-1">
               <div className="project-content flex flex-col">
                 <h3 className="project-title text-xl font-bold mb-2">
@@ -198,7 +198,7 @@ export default function Projects() {
               </div>
             </div>
 
-            {/* Project Card 6: duckIt */}
+            {/* Project Card 6*/}
             <div className="project-card bg-gray-800 border border-gray-700 p-6 rounded-lg transition hover:-translate-y-1">
               <div className="project-content flex flex-col">
                 <h3 className="project-title text-xl font-bold mb-2">duckIt</h3>
@@ -229,7 +229,7 @@ export default function Projects() {
               </div>
             </div>
 
-            {/* Project Card 7: CarView */}
+            {/* Project Card 7*/}
             <div className="project-card bg-gray-800 border border-gray-700 p-6 rounded-lg transition hover:-translate-y-1">
               <div className="project-content flex flex-col">
                 <h3 className="project-title text-xl font-bold mb-2">
@@ -266,7 +266,6 @@ export default function Projects() {
         </div>
       </section>
 
-      {/* Social Icons */}
       <div className="social-icons flex justify-center mt-12 text-2xl">
         <a
           href="https://github.com/goshanraj-g"

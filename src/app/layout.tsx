@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header";
+import ClientEffects from "./components/ClientEffects";
 
 export const metadata: Metadata = {
   title: "Goshanraj Govindaraj",
@@ -21,6 +22,7 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <ClientEffects />
         <Header />
         <main className="p-6">{children}</main>
       </body>

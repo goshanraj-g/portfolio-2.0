@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
+import ParticleBackground from "./components/ParticleBackground"; // Adjust path if necessary
 
 export default function Home() {
   return (
@@ -10,16 +10,14 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/images/mylogo.png" />
-        {/* Include Font Awesome CDN */}
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         />
       </Head>
 
-
-      {/* Hero Section */}
       <section id="home" className="hero-section">
+        <ParticleBackground />
         <div className="hero-content">
           <div className="profile-pic">
             <Image
