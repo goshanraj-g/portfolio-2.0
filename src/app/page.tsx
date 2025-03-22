@@ -1,9 +1,16 @@
-import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <main>
-      <h1>HELLO WORLD!</h1>
-    </main>
+    <>
+      <Head>
+        <title>Goshanraj Govindaraj</title>
+        <meta charSet="UTF-8" />
+      </Head>
+
+      <div>
+        <h2 className="text-xl font-semibold">Welcome to my portfolio!</h2>
+      </div>
+    </>
   );
 }
