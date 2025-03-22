@@ -27,7 +27,7 @@ export default function Header() {
             About Me
           </Link>
           <Link href="/projects">Projects</Link>
-          <a href="/files/SWE_Resume_Goshanraj_Govindaraj.pdf">Resume</a>
+          <a href="/files/Goshanraj_Govindaraj_SWE_Resume.pdf">Resume</a>
         </div>
       </div>
     </header>

@@ -27,7 +27,7 @@ export default function Projects() {
                   skills, and experience with theme switching functionality.
                 </p>
                 <div className="tech-stack flex flex-wrap gap-2 mb-4">
-                  {["HTML", "CSS", "JavaScript"].map((tech) => (
+                  {["React.js", "Next.js", "TypeScript", "TailwindCSS"].map((tech) => (
                     <span
                       key={tech}
                       className="bg-green-600 text-black px-3 py-1 rounded-full text-sm"
